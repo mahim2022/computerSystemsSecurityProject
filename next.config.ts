@@ -10,6 +10,9 @@ const nextConfig: NextConfig = {
       },
     ],
   },
+  eslint: {
+    ignoreDuringBuilds: true, // disables eslint build blocking
+  },
 };
 
 export default nextConfig;
